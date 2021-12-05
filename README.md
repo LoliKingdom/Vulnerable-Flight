@@ -1,9 +1,6 @@
-# Fabric Example Mod
+# Vulnerable Flight
 
-## Setup
+### Currently for Minecraft 1.18
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+- Lightning bolts targets players engaged in elytra flight when no lightning rods are present.
+- Elytras take more damage when flying in the rain or in humid areas.
