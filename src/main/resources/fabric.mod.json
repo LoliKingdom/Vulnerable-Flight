@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "vulnerableflight",
+  "version": "${version}",
+
+  "name": "Vulnerable Flight",
+  "description": "Lightning bolts targets players engaged in elytra flight when no lightning rods are present + elytras take more damage when flying in the rain or in humid areas.",
+  "authors": [
+    "Rongmario"
+  ],
+
+  "license": "MIT",
+  "icon": "assets/vulnerableflight/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "zone.rong.vulnerableflight.VulnerableFlight"
+    ]
+  },
+  "mixins": [
+    "vulnerableflight.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}
